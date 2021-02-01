@@ -1,0 +1,53 @@
+p,
+body {
+    font-family: Calibri;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    color: red
+}
+
+a: link {
+    color: deepink;
+    text=decoration: none;
+}
+
+a: not visited {
+    color: red;
+}
+
+a: visited {
+    color: green;
+}
+
+input[type="submit"]: active {
+    background-color: green;
+}
+
+input[type="submit"]: hover {
+    background-color: red;
+}
+
+input[type="submit"]: active {
+    background-color: green;
+}
+
+ul {
+    list-style-type: square
+}
+
+ol {
+    list-style-type: lower roman
+}
+
+tr:hover {
+    background-color: lightblue
+}
+
+tr:nth-child(even) {
+    background-color: lightgray
+}
