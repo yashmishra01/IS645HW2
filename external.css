@@ -1,18 +1,16 @@
 p,
 body {
-    font-family: Calibri;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h1,
-h2,
-h3,
-h4 {
+h2 {
     font-family: 'Courier New', Courier, monospace;
     color: red
 }
 
-a: link {
-    color: deepink;
+a:visited {
+    color: green;
     text=decoration: none;
 }
 
@@ -20,15 +18,11 @@ a: not visited {
     color: red;
 }
 
-a: visited {
-    color: green;
-}
-
-input[type="submit"]: active {
+input[type="submit"]:active {
     background-color: green;
 }
 
-input[type="submit"]: hover {
+input[type="submit"]:hover {
     background-color: red;
 }
 
@@ -41,7 +35,7 @@ ul {
 }
 
 ol {
-    list-style-type: lower roman
+    list-style-type: lower-roman
 }
 
 tr:hover {
